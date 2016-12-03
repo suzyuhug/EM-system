@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C353C7F-2F5B-4B5B-8FEC-CFF4F554BDC0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EM_Management_System.My.MyApplication</StartupObject>
+    <RootNamespace>EM_Management_System</RootNamespace>
+    <AssemblyName>EM Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://localhost/EM Management System/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>15</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EM Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EM Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0BE46304609649A56BB97DA7F46A1E4981BB5D55</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>EM Management System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ICO %281320%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bomeditfrm .Designer.vb">
+      <DependentUpon>bomeditfrm .vb</DependentUpon>
+    </Compile>
+    <Compile Include="bomeditfrm .vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="borrow.Designer.vb">
+      <DependentUpon>borrow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="borrow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="borrowedit.Designer.vb">
+      <DependentUpon>borrowedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="borrowedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="borrowquery.Designer.vb">
+      <DependentUpon>borrowquery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="borrowquery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="borrowuseredit.Designer.vb">
+      <DependentUpon>borrowuseredit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="borrowuseredit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boxeditfrm .Designer.vb">
+      <DependentUpon>boxeditfrm .vb</DependentUpon>
+    </Compile>
+    <Compile Include="boxeditfrm .vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boxfrm.Designer.vb">
+      <DependentUpon>boxfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="boxfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chanepw.Designer.vb">
+      <DependentUpon>chanepw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="chanepw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ckpass.Designer.vb">
+      <DependentUpon>ckpass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ckpass.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="click.Designer.vb">
+      <DependentUpon>click.vb</DependentUpon>
+    </Compile>
+    <Compile Include="click.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="closeorder.Designer.vb">
+      <DependentUpon>closeorder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="closeorder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="databak.Designer.vb">
+      <DependentUpon>databak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="databak.vb" />
+    <Compile Include="Dataerror.Designer.vb">
+      <DependentUpon>Dataerror.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dataerror.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSetup.Designer.vb">
+      <DependentUpon>DataSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datebackupfrm.Designer.vb">
+      <DependentUpon>datebackupfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datebackupfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmtouOrder.Designer.vb">
+      <DependentUpon>FrmtouOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmtouOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inorder.Designer.vb">
+      <DependentUpon>inorder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inorder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabelconfigFrm.Designer.vb">
+      <DependentUpon>LabelconfigFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LabelconfigFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabelModeladd.Designer.vb">
+      <DependentUpon>LabelModeladd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LabelModeladd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="labelprint.Designer.vb">
+      <DependentUpon>labelprint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="labelprint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabelPrintMsg.Designer.vb">
+      <DependentUpon>LabelPrintMsg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LabelPrintMsg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="locationfrm.Designer.vb">
+      <DependentUpon>locationfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="locationfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logfrm.Designer.vb">
+      <DependentUpon>logfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="logfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainfrm.Designer.vb">
+      <DependentUpon>mainfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mainfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mControl1.Designer.vb">
+      <DependentUpon>mControl1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mControl1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="msgboxfrm.Designer.vb">
+      <DependentUpon>msgboxfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="msgboxfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ordelistedit .Designer.vb">
+      <DependentUpon>ordelistedit .vb</DependentUpon>
+    </Compile>
+    <Compile Include="ordelistedit .vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orderclose.Designer.vb">
+      <DependentUpon>orderclose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="orderclose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ordercxfrm.Designer.vb">
+      <DependentUpon>ordercxfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ordercxfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orderedit.Designer.vb">
+      <DependentUpon>orderedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="orderedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderListControl.Designer.vb">
+      <DependentUpon>OrderListControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderListControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ordermxfrm.Designer.vb">
+      <DependentUpon>ordermxfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ordermxfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderPicControl.Designer.vb">
+      <DependentUpon>OrderPicControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderPicControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ordeviewedit.Designer.vb">
+      <DependentUpon>ordeviewedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ordeviewedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printControl1.Designer.vb">
+      <DependentUpon>printControl1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printControl1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="printedit.Designer.vb">
+      <DependentUpon>printedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printfrm.Designer.vb">
+      <DependentUpon>printfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pwreset.Designer.vb">
+      <DependentUpon>pwreset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pwreset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sendorder.Designer.vb">
+      <DependentUpon>sendorder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sendorder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="snControl.Designer.vb">
+      <DependentUpon>snControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="snControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sysuseradd.Designer.vb">
+      <DependentUpon>sysuseradd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sysuseradd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="toolfrm.Designer.vb">
+      <DependentUpon>toolfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="toolfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="touorder.Designer.vb">
+      <DependentUpon>touorder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="touorder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TouOrderControl.Designer.vb">
+      <DependentUpon>TouOrderControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TouOrderControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="touorderfrm .Designer.vb">
+      <DependentUpon>touorderfrm .vb</DependentUpon>
+    </Compile>
+    <Compile Include="touorderfrm .vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatemanfrm.Designer.vb">
+      <DependentUpon>updatemanfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="updatemanfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uploadpicfrm.Designer.vb">
+      <DependentUpon>Uploadpicfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Uploadpicfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Userloginfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Userloginfrm.Designer.vb">
+      <DependentUpon>Userloginfrm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="userprfrm .Designer.vb">
+      <DependentUpon>userprfrm .vb</DependentUpon>
+    </Compile>
+    <Compile Include="userprfrm .vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bomeditfrm .resx">
+      <DependentUpon>bomeditfrm .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="borrow.resx">
+      <DependentUpon>borrow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="borrowedit.resx">
+      <DependentUpon>borrowedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="borrowquery.resx">
+      <DependentUpon>borrowquery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="borrowuseredit.resx">
+      <DependentUpon>borrowuseredit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boxeditfrm .resx">
+      <DependentUpon>boxeditfrm .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boxfrm.resx">
+      <DependentUpon>boxfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chanepw.resx">
+      <DependentUpon>chanepw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ckpass.resx">
+      <DependentUpon>ckpass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="click.resx">
+      <DependentUpon>click.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="closeorder.resx">
+      <DependentUpon>closeorder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="databak.resx">
+      <DependentUpon>databak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dataerror.resx">
+      <DependentUpon>Dataerror.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSetup.resx">
+      <DependentUpon>DataSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datebackupfrm.resx">
+      <DependentUpon>datebackupfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmtouOrder.resx">
+      <DependentUpon>FrmtouOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inorder.resx">
+      <DependentUpon>inorder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabelconfigFrm.resx">
+      <DependentUpon>LabelconfigFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabelModeladd.resx">
+      <DependentUpon>LabelModeladd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="labelprint.resx">
+      <DependentUpon>labelprint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabelPrintMsg.resx">
+      <DependentUpon>LabelPrintMsg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="locationfrm.resx">
+      <DependentUpon>locationfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logfrm.resx">
+      <DependentUpon>logfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainfrm.resx">
+      <DependentUpon>mainfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mControl1.resx">
+      <DependentUpon>mControl1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="msgboxfrm.resx">
+      <DependentUpon>msgboxfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ordelistedit .resx">
+      <DependentUpon>ordelistedit .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderclose.resx">
+      <DependentUpon>orderclose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ordercxfrm.resx">
+      <DependentUpon>ordercxfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderedit.resx">
+      <DependentUpon>orderedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderListControl.resx">
+      <DependentUpon>OrderListControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ordermxfrm.resx">
+      <DependentUpon>ordermxfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderPicControl.resx">
+      <DependentUpon>OrderPicControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ordeviewedit.resx">
+      <DependentUpon>ordeviewedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printControl1.resx">
+      <DependentUpon>printControl1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printedit.resx">
+      <DependentUpon>printedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printfrm.resx">
+      <DependentUpon>printfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pwreset.resx">
+      <DependentUpon>pwreset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sendorder.resx">
+      <DependentUpon>sendorder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="snControl.resx">
+      <DependentUpon>snControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sysuseradd.resx">
+      <DependentUpon>sysuseradd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="toolfrm.resx">
+      <DependentUpon>toolfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="touorder.resx">
+      <DependentUpon>touorder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TouOrderControl.resx">
+      <DependentUpon>TouOrderControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="touorderfrm .resx">
+      <DependentUpon>touorderfrm .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatemanfrm.resx">
+      <DependentUpon>updatemanfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uploadpicfrm.resx">
+      <DependentUpon>Uploadpicfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Userloginfrm.resx">
+      <DependentUpon>Userloginfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userprfrm .resx">
+      <DependentUpon>userprfrm .vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="EM Management System_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\FFchange.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNG %28311%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNG %282213%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNG %28740%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Backup\" />
+    <Folder Include="image\" />
+    <Folder Include="LabelTemp\" />
+    <Folder Include="orderlog\" />
+    <Folder Include="order\" />
+    <Folder Include="userphoto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNG %28335%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNG444.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNG66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNG %28317%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55669.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5611.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5456666.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4458.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4474.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54899.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54548.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICO %281320%29.ico" />
+    <None Include="Resources\图片1.jpg" />
+    <None Include="Resources\printbuttion.png" />
+    <None Include="Resources\OrderPic.png" />
+    <None Include="Resources\OrderPiccancel.png" />
+    <None Include="Resources\OKMouseEnter.png" />
+    <None Include="Resources\ListMouseEnter.png" />
+    <None Include="Resources\OKMouseLeave.png" />
+    <None Include="Resources\ListMouseLeave.png" />
+    <None Include="Resources\OrderMouseEnter.png" />
+    <None Include="Resources\OrderMouseLeave.png" />
+    <None Include="Resources\print_printer_64px_11220_easyicon.net.png" />
+    <None Include="Resources\print_printer_72px_11220_easyicon.net.png" />
+    <None Include="Resources\new jia.png" />
+    <None Include="Resources\Badge_plus_48px_1184722_easyicon.net.png" />
+    <None Include="Resources\profle.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\Image1.png" />
+    <None Include="Resources\44581.png" />
+    <None Include="Resources\ppt20.png" />
+    <None Include="Resources\FF.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\8b17c646b2770699ce603ec2026ce473.jpg" />
+    <None Include="Resources\c216b282b2d89f4475c435ef86b5be4e.png" />
+    <None Include="Resources\6218f5695d2137ccaad119b4cf266075.png" />
+    <None Include="Resources\未标题-3.png" />
+    <None Include="Resources\587830f196ef07c13e49276f7c184e7d1.png" />
+    <None Include="Resources\未标题-2.bmp" />
+    <None Include="Resources\b41c8b66855ab187eb6e0533e5e737fa.jpg" />
+    <None Include="Resources\MB_0006_back1.png" />
+    <None Include="Resources\28f4efa892af22502c8044aa7e23414d.png" />
+    <None Include="Resources\MB_0006_back.png" />
+    <None Include="Resources\logout-icon.png" />
+    <None Include="Resources\未标题-1.png" />
+    <None Include="Resources\未标题-5.png" />
+    <None Include="Resources\PNG %28319%291.png" />
+    <None Include="Resources\c0976693c5b66ceccd200e3e0682a41a.jpg" />
+    <None Include="Resources\未标题-4.png" />
+    <None Include="Resources\a6cb81fe61121dcdb9b26607a30d56b1.jpg" />
+    <None Include="Resources\445553.png" />
+    <None Include="Resources\85888.png" />
+    <None Include="Resources\jt.png" />
+    <None Include="Resources\1111551.png" />
+    <None Include="Resources\yprint.png" />
+    <None Include="Resources\print1.png" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\model.png" />
+    <None Include="Resources\PNG %28989%29.png" />
+    <None Include="Resources\PNG %28985%29.png" />
+    <None Include="Resources\voice_Disabled.png" />
+    <None Include="Resources\voice.png" />
+    <None Include="Resources\flextronics_logo.png" />
+    <None Include="Resources\PNG %28954%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
