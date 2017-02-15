@@ -3,16 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="DataSource" Type="System.String" Scope="User">
-      <Value Profile="(Default)">10.194.48.40\MYSQL</Value>
+      <Value Profile="(Default)">suznt004</Value>
     </Setting>
     <Setting Name="DataCatalog" Type="System.String" Scope="User">
       <Value Profile="(Default)">EMsystem</Value>
     </Setting>
     <Setting Name="DataUser" Type="System.String" Scope="User">
-      <Value Profile="(Default)">c2E=</Value>
+      <Value Profile="(Default)">YW5keQ==</Value>
     </Setting>
     <Setting Name="DataPsw" Type="System.String" Scope="User">
-      <Value Profile="(Default)">aHlmMTk4OTMxMQ==</Value>
+      <Value Profile="(Default)">MTIz</Value>
     </Setting>
     <Setting Name="UserSet" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

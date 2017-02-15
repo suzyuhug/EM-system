@@ -194,58 +194,16 @@
     <Compile Include="DataSetup.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="datebackupfrm.Designer.vb">
-      <DependentUpon>datebackupfrm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="datebackupfrm.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmtouOrder.Designer.vb">
-      <DependentUpon>FrmtouOrder.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FrmtouOrder.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="inorder.Designer.vb">
       <DependentUpon>inorder.vb</DependentUpon>
     </Compile>
     <Compile Include="inorder.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LabelconfigFrm.Designer.vb">
-      <DependentUpon>LabelconfigFrm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="LabelconfigFrm.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LabelModeladd.Designer.vb">
-      <DependentUpon>LabelModeladd.vb</DependentUpon>
-    </Compile>
-    <Compile Include="LabelModeladd.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="labelprint.Designer.vb">
-      <DependentUpon>labelprint.vb</DependentUpon>
-    </Compile>
-    <Compile Include="labelprint.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LabelPrintMsg.Designer.vb">
-      <DependentUpon>LabelPrintMsg.vb</DependentUpon>
-    </Compile>
-    <Compile Include="LabelPrintMsg.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="locationfrm.Designer.vb">
       <DependentUpon>locationfrm.vb</DependentUpon>
     </Compile>
     <Compile Include="locationfrm.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="logfrm.Designer.vb">
-      <DependentUpon>logfrm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="logfrm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login.Designer.vb">
@@ -279,12 +237,6 @@
     <Compile Include="ordelistedit .vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="orderclose.Designer.vb">
-      <DependentUpon>orderclose.vb</DependentUpon>
-    </Compile>
-    <Compile Include="orderclose.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="ordercxfrm.Designer.vb">
       <DependentUpon>ordercxfrm.vb</DependentUpon>
     </Compile>
@@ -297,23 +249,11 @@
     <Compile Include="orderedit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrderListControl.Designer.vb">
-      <DependentUpon>OrderListControl.vb</DependentUpon>
-    </Compile>
-    <Compile Include="OrderListControl.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="ordermxfrm.Designer.vb">
       <DependentUpon>ordermxfrm.vb</DependentUpon>
     </Compile>
     <Compile Include="ordermxfrm.vb">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OrderPicControl.Designer.vb">
-      <DependentUpon>OrderPicControl.vb</DependentUpon>
-    </Compile>
-    <Compile Include="OrderPicControl.vb">
-      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ordeviewedit.Designer.vb">
       <DependentUpon>ordeviewedit.vb</DependentUpon>
@@ -370,36 +310,13 @@
     <Compile Include="toolfrm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="touorder.Designer.vb">
-      <DependentUpon>touorder.vb</DependentUpon>
-    </Compile>
-    <Compile Include="touorder.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TouOrderControl.Designer.vb">
-      <DependentUpon>TouOrderControl.vb</DependentUpon>
-    </Compile>
-    <Compile Include="TouOrderControl.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="touorderfrm .Designer.vb">
       <DependentUpon>touorderfrm .vb</DependentUpon>
     </Compile>
     <Compile Include="touorderfrm .vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="updatemanfrm.Designer.vb">
-      <DependentUpon>updatemanfrm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="updatemanfrm.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Uploadpicfrm.Designer.vb">
-      <DependentUpon>Uploadpicfrm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Uploadpicfrm.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="update.vb" />
     <Compile Include="Userloginfrm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -472,32 +389,11 @@
     <EmbeddedResource Include="DataSetup.resx">
       <DependentUpon>DataSetup.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="datebackupfrm.resx">
-      <DependentUpon>datebackupfrm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmtouOrder.resx">
-      <DependentUpon>FrmtouOrder.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="inorder.resx">
       <DependentUpon>inorder.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LabelconfigFrm.resx">
-      <DependentUpon>LabelconfigFrm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LabelModeladd.resx">
-      <DependentUpon>LabelModeladd.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="labelprint.resx">
-      <DependentUpon>labelprint.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LabelPrintMsg.resx">
-      <DependentUpon>LabelPrintMsg.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="locationfrm.resx">
       <DependentUpon>locationfrm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="logfrm.resx">
-      <DependentUpon>logfrm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>
@@ -514,23 +410,14 @@
     <EmbeddedResource Include="ordelistedit .resx">
       <DependentUpon>ordelistedit .vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="orderclose.resx">
-      <DependentUpon>orderclose.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ordercxfrm.resx">
       <DependentUpon>ordercxfrm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="orderedit.resx">
       <DependentUpon>orderedit.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrderListControl.resx">
-      <DependentUpon>OrderListControl.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ordermxfrm.resx">
       <DependentUpon>ordermxfrm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OrderPicControl.resx">
-      <DependentUpon>OrderPicControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ordeviewedit.resx">
       <DependentUpon>ordeviewedit.vb</DependentUpon>
@@ -559,20 +446,8 @@
     <EmbeddedResource Include="toolfrm.resx">
       <DependentUpon>toolfrm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="touorder.resx">
-      <DependentUpon>touorder.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TouOrderControl.resx">
-      <DependentUpon>TouOrderControl.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="touorderfrm .resx">
       <DependentUpon>touorderfrm .vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="updatemanfrm.resx">
-      <DependentUpon>updatemanfrm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Uploadpicfrm.resx">
-      <DependentUpon>Uploadpicfrm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Userloginfrm.resx">
       <DependentUpon>Userloginfrm.vb</DependentUpon>

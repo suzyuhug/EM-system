@@ -393,8 +393,9 @@ Public Class mainfrm
         msgboxfrm.Show()
         Application.DoEvents()
         If qx2 = "有" Then
-            touorder.Show()
-            'FrmtouOrder.Show()
+            'touorder.Show()
+            touorderfrm.Show()
+            ' FrmtouOrder.Show()
 
         Else
             msgboxfrm.Close()
@@ -524,12 +525,6 @@ Public Class mainfrm
 
 
 
-    Private Sub 更新日志ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 更新日志ToolStripMenuItem.Click
-        logfrm.Show()
-    End Sub
-
-
-
     Private Sub 木箱管理ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 木箱管理ToolStripMenuItem.Click
 
         If qx21 = "有" Then
@@ -592,32 +587,11 @@ Public Class mainfrm
 
     End Sub
 
-    Private Sub ToolStripButton10_Click(sender As Object, e As EventArgs) Handles ToolStripButton10.Click
-        If qx10 = "有" Then
-            datebackupfrm.Show()
-        Else
-            MessageBox.Show("您没有这个权限，请联系管理员", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End If
-
-    End Sub
-
-
-
 
     Private Sub ToolStripButton12_Click(sender As Object, e As EventArgs) Handles ToolStripButton12.Click
         test_Click(sender, e)
     End Sub
 
-
-
-    Private Sub 上传图片ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 上传图片ToolStripMenuItem.Click
-
-        If qx16 = "有" Then
-            Uploadpicfrm.Show()
-        Else
-            MessageBox.Show("您没有这个权限，请联系管理员", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End If
-    End Sub
 
     Private Sub 工具管理ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 工具管理ToolStripMenuItem.Click
         If qx16 = "有" Then
@@ -625,37 +599,6 @@ Public Class mainfrm
         Else
             MessageBox.Show("您没有这个权限，请联系管理员", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
-    End Sub
-
-    Private Sub 上传更新ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 上传更新ToolStripMenuItem.Click
-
-        If qx18 = "有" Then
-            updatemanfrm.Show()
-        Else
-            MessageBox.Show("您没有这个权限，请联系管理员", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End If
-    End Sub
-
-
-
-
-
-
-
-
-
-    Private Sub 关闭工单ToolStripMenuItem_Click(sender As Object, e As EventArgs)
-        msgboxfrm.Show()
-        Application.DoEvents()
-
-        orderclose.Show()
-
-        msgboxfrm.Close()
-    End Sub
-
-    Private Sub ToolStripButton14_Click(sender As Object, e As EventArgs) Handles ToolStripButton14.Click
-        labelprint.Show()
-
     End Sub
 
     Private Sub ToolStrip2_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles ToolStrip2.ItemClicked
@@ -666,7 +609,7 @@ Public Class mainfrm
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
         touorderfrm.Show()
     End Sub
 End Class

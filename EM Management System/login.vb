@@ -10,6 +10,7 @@ Public Class login
         Me.Label1.BackColor = Color.Transparent
         Label1.Text = "正在加载主程序..."
 
+        updateclass.UpdateFrom("EM-System")
         'Application.DoEvents()
         'Threading.Thread.Sleep(5000)
         ' Application.DoEvents()
@@ -34,7 +35,7 @@ Public Class login
             FrmDataSql = "Data Source=" & My.Settings.DataSource & ";Initial Catalog=" & My.Settings.DataCatalog & ";Integrated Security=False;User ID=" & ModUser & ";Password=" & ModPsw & ";"
 
             userid = Environment.GetEnvironmentVariable("USERNAME")
-            upda_Click(sender, e)
+            'upda_Click(sender, e)
             ADlogin_Click(sender, e)
 
         Catch ex As Exception
@@ -112,49 +113,49 @@ Public Class login
         cn.Close()
 
     End Sub
-    Public Sub upda_Click(sender As Object, e As EventArgs)
-        Label1.Text = "正在检查更新..."
-        Application.DoEvents()
-        Dim info As String = "1111"
-        Dim cnStr As String = FrmDataSql  '数据库名，帐号，密码            
-        Dim cn As SqlConnection = New SqlConnection(cnStr)
-        Dim da As SqlDataAdapter = New SqlDataAdapter("select * from NewREV_Table", cn) '表名
-        Dim ds As DataSet = New DataSet()
-        da.Fill(ds, "mytable")
+    'Public Sub upda_Click(sender As Object, e As EventArgs)
+    '    Label1.Text = "正在检查更新..."
+    '    Application.DoEvents()
+    '    Dim info As String = "1111"
+    '    Dim cnStr As String = FrmDataSql  '数据库名，帐号，密码            
+    '    Dim cn As SqlConnection = New SqlConnection(cnStr)
+    '    Dim da As SqlDataAdapter = New SqlDataAdapter("select * from NewREV_Table", cn) '表名
+    '    Dim ds As DataSet = New DataSet()
+    '    da.Fill(ds, "mytable")
 
-        Dim dv As New DataView(ds.Tables("mytable"), "", "ID", DataViewRowState.CurrentRows) '指定默认查找列为姓名
-        Dim rowIndex As Integer = dv.Find("1")
-        If rowIndex = -1 Then
-        Else
-            Revid = Trim(dv(rowIndex)("NewRev").ToString)
-            Idid = Trim(dv(rowIndex)("UpID").ToString)
-        End If
+    '    Dim dv As New DataView(ds.Tables("mytable"), "", "ID", DataViewRowState.CurrentRows) '指定默认查找列为姓名
+    '    Dim rowIndex As Integer = dv.Find("1")
+    '    If rowIndex = -1 Then
+    '    Else
+    '        Revid = Trim(dv(rowIndex)("NewRev").ToString)
+    '        Idid = Trim(dv(rowIndex)("UpID").ToString)
+    '    End If
 
-        Dim cn1 As SqlConnection = New SqlConnection(cnStr)
-        Dim da1 As SqlDataAdapter = New SqlDataAdapter("select * from Update_History", cn1) '表名
-        Dim ds1 As DataSet = New DataSet()
-        da1.Fill(ds1, "mytable")
-        Dim dv1 As New DataView(ds1.Tables("mytable"), "", "ID", DataViewRowState.CurrentRows) '指定默认查找列为姓名
-        Dim rowIndex1 As Integer = dv1.Find(Idid)
-        If rowIndex1 = -1 Then
-        Else
-            info = Trim(dv1(rowIndex1)("Updateinfo").ToString)
-        End If
+    '    Dim cn1 As SqlConnection = New SqlConnection(cnStr)
+    '    Dim da1 As SqlDataAdapter = New SqlDataAdapter("select * from Update_History", cn1) '表名
+    '    Dim ds1 As DataSet = New DataSet()
+    '    da1.Fill(ds1, "mytable")
+    '    Dim dv1 As New DataView(ds1.Tables("mytable"), "", "ID", DataViewRowState.CurrentRows) '指定默认查找列为姓名
+    '    Dim rowIndex1 As Integer = dv1.Find(Idid)
+    '    If rowIndex1 = -1 Then
+    '    Else
+    '        info = Trim(dv1(rowIndex1)("Updateinfo").ToString)
+    '    End If
 
 
-        If Revid <> Application.ProductVersion Then
-            msgboxfrm.Close()
-            MessageBox.Show("发现新版本  " & Revid & " ，请立即更新！" & vbCr & vbCr & "更新日志：" & vbCr & info, "系统更新", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
-            If Dir(Application.StartupPath + "\Update.exe") <> "" Then
-                Process.Start(Application.StartupPath + "\Update.exe")
-                End
-            Else
-                MessageBox.Show("更新程序不存在，请通知管理员", "系统更新", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
-        End If
-        cn.Close()
-        cn1.Close()
-    End Sub
+    '    If Revid <> Application.ProductVersion Then
+    '        msgboxfrm.Close()
+    '        MessageBox.Show("发现新版本  " & Revid & " ，请立即更新！" & vbCr & vbCr & "更新日志：" & vbCr & info, "系统更新", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+    '        If Dir(Application.StartupPath + "\Update.exe") <> "" Then
+    '            Process.Start(Application.StartupPath + "\Update.exe")
+    '            End
+    '        Else
+    '            MessageBox.Show("更新程序不存在，请通知管理员", "系统更新", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '        End If
+    '    End If
+    '    cn.Close()
+    '    cn1.Close()
+    'End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         sqltest_Click(sender, e)

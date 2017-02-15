@@ -56,7 +56,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("10.194.48.40\MYSQL")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("suznt004")>  _
         Public Property DataSource() As String
             Get
                 Return CType(Me("DataSource"),String)
@@ -80,7 +80,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("c2E=")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("YW5keQ==")>  _
         Public Property DataUser() As String
             Get
                 Return CType(Me("DataUser"),String)
@@ -92,7 +92,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("aHlmMTk4OTMxMQ==")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("MTIz")>  _
         Public Property DataPsw() As String
             Get
                 Return CType(Me("DataPsw"),String)

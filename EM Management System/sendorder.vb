@@ -424,7 +424,7 @@ Public Class sendorder
 
             For i = 0 To DataGridView2.RowCount - 1
 
-                pnoptint = DataGridView2.Item("料号", i).Value.ToString()
+                pnoptint = Trim(DataGridView2.Item("料号", i).Value.ToString())
 
                 Dim rowIndex As Integer = dv.Find(pnoptint)
                 If rowIndex = -1 Then
@@ -463,33 +463,33 @@ Public Class sendorder
                             Dim testpn As String
                             Dim testorid As String
                             Dim testno As String
-                            testpn = DataGridView2.Item("料号", s).Value
-                            testorid = DataGridView2.Item("工单号", s).Value
-                            testno = DataGridView2.Item("数量", s).Value
+                            testpn = Trim(DataGridView2.Item("料号", s).Value)
+                            testorid = Trim(DataGridView2.Item("工单号", s).Value)
+                            testno = Trim(DataGridView2.Item("数量", s).Value)
                             For z As Integer = 0 To testnum
 
 
 
-                                If dataviewtest.Item(0, z).Value = testpn Then
+                                If Trim(dataviewtest.Item(0, z).Value) = testpn Then
 
-                                        DataGridView3.Rows.Insert(0)
-                                        DataGridView3.Rows(0).Cells(0).Value = x
-                                        DataGridView3.Rows(0).Cells(1).Value = modeltable
-                                        DataGridView3.Rows(0).Cells(2).Value = testpn
-                                        DataGridView3.Rows(0).Cells(3).Value = testorid
+                                    DataGridView3.Rows.Insert(0)
+                                    DataGridView3.Rows(0).Cells(0).Value = x
+                                    DataGridView3.Rows(0).Cells(1).Value = modeltable
+                                    DataGridView3.Rows(0).Cells(2).Value = testpn
+                                    DataGridView3.Rows(0).Cells(3).Value = testorid
                                     DataGridView3.Rows(0).Cells(4).Value = testno
-                                    If dataviewtest.Item(1, z).Value = "是" Then
+                                    If Trim(dataviewtest.Item(1, z).Value) = "是" Then
                                         DataGridView3.Rows(0).Cells(5).Value = "已上线"
                                     ElseIf dataviewtest.Item(1, z).Value = "否" Then
                                         DataGridView3.Rows(0).Cells(5).Value = "待投"
                                     End If
                                     DataGridView3.Rows(0).Cells(6).Value = "未入库"
-                                        dataviewtest.Item(0, z).Value = "------------"
+                                    dataviewtest.Item(0, z).Value = "------------"
 
-                                    Else
-                                        'MessageBox.Show("你复制的数据有误，请查找错误！002", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                                Else
+                                    'MessageBox.Show("你复制的数据有误，请查找错误！002", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
-                                    End If
+                                End If
 
 
                             Next
@@ -519,7 +519,7 @@ Public Class sendorder
 
                 Dim oridtest As String
                 For h As Integer = 0 To DataGridView3.RowCount - 1
-                    oridtest = DataGridView3.Item(3, h).Value
+                    oridtest = Trim(DataGridView3.Item(3, h).Value)
                     Dim cnStr3 As String = FrmDataSql  '数据库名，帐号，密码            
                     Dim cn3 As SqlConnection = New SqlConnection(cnStr3)
                     Dim da3 As SqlDataAdapter = New SqlDataAdapter("select * from Order_view", cn3) '表名
@@ -546,7 +546,7 @@ Public Class sendorder
 
                 For j As Integer = 0 To DataGridView4.RowCount - 1
                     Dim modelidtemp As String
-                    modelidtemp = DataGridView4.Item(1, j).Value.ToString()
+                    modelidtemp = Trim(DataGridView4.Item(1, j).Value.ToString())
                     Dim cnStr2 As String = FrmDataSql  '数据库名，帐号，密码            
                     Dim cn2 As SqlConnection = New SqlConnection(cnStr2)
                     Dim da2 As SqlDataAdapter = New SqlDataAdapter("select * from Order_ID", cn2) '表名
@@ -578,11 +578,11 @@ Public Class sendorder
                         Dim gridv4 As String
 
 
-                        gridv4 = DataGridView4.Item(0, j).Value.ToString()
+                        gridv4 = Trim(DataGridView4.Item(0, j).Value.ToString())
                         DataGridView4.Rows(j).Cells(0).Value = modelidup
 
                         For y As Integer = 0 To DataGridView3.RowCount - 1
-                            gridv3 = DataGridView3.Item(0, y).Value.ToString()
+                            gridv3 = Trim(DataGridView3.Item(0, y).Value.ToString())
 
                             If gridv3 = gridv4 Then
                                 DataGridView3.Rows(y).Cells(0).Value = modelidup
@@ -659,8 +659,8 @@ Public Class sendorder
                             ds5.Tables("mytable").Rows.Add(drow5)  '新行内容加入到表中
                             Dim cmdb5 As New SqlCommandBuilder(da5)  '和数据库打个电话，本地内存有水要运过去
                             da5.Update(ds5, "mytable")               '上面电话里已经说好了，现在把水运到数据库去 
-                            bhbox = DataGridView4.Item(0, r).Value.ToString()
-                            xhbox = DataGridView4.Item(1, r).Value.ToString()
+                            bhbox = Trim(DataGridView4.Item(0, r).Value.ToString())
+                            xhbox = Trim(DataGridView4.Item(1, r).Value.ToString())
                             pladdbox_Click(sender, e)
                         Catch ex As Exception
                             MessageBox.Show(ex.ToString)
