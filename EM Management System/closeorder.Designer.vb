@@ -68,7 +68,7 @@ Partial Class closeorder
         'ToolStripLabel1
         '
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(70, 33)
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(62, 33)
         Me.ToolStripLabel1.Text = "UserName"
         '
         'ListBox1

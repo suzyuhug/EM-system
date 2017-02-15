@@ -115,6 +115,7 @@ Public Class closeorder
             If ListBox1.Items.Count = 0 Then
                 MessageBox.Show("没有可以入库的工单了！", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Else
+                ordermailsend()
                 msgboxfrm.Show()
                 Application.DoEvents()
                 bian = ""
@@ -177,6 +178,19 @@ Public Class closeorder
         msgboxfrm.Close()
 
     End Sub
+    Public Sub ordermailsend()
+        Try
+            Dim cn = New SqlConnection(FrmDataSql)
+            Dim ii As String = "exec sp_ordermailsend"
+            Dim cm = New SqlCommand(ii, cn)
+            cn.Open()
+            cm.ExecuteNonQuery()
+            cn.Close()
+            cn.Dispose()
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString)
+        End Try
+    End Sub
     Public Sub cxtable_Click(sender As Object, e As EventArgs)
         Dim cnStr As String = FrmDataSql
         Dim cn As SqlConnection = New SqlConnection(cnStr)
@@ -224,4 +238,6 @@ Public Class closeorder
         My.Computer.FileSystem.WriteAllText(Application.StartupPath + "\\orderlog\" & mm & ".txt", bian, False, System.Text.Encoding.Default)
 
     End Sub
+
+
 End Class

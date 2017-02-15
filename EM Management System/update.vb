@@ -25,7 +25,7 @@ Public Class updateclass
         AppName = Name
         Dim str As String = Update()
         If Not str Is Nothing Then
-            If DialogResult.Yes = MessageBox.Show($"更新内容：\n\n{str}", "发现新版本", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) Then
+            If DialogResult.Yes = MessageBox.Show($"更新内容：{str}", "发现新版本", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) Then
                 If loadUpdate() Then
                     Application.Exit()
                 End If
