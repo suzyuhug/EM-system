@@ -137,7 +137,7 @@ Public Class borrow
         If FoundMatch Then
             Try
                 Dim cn = New SqlConnection(FrmDataSql)
-                Dim ii As String = "exec sp_ordermailsend '" + idlabel.Text + "'"
+                Dim ii As String = "exec sp_formssend '" + idlabel.Text + "'"
                 Dim cm = New SqlCommand(ii, cn)
                 cn.Open()
                 cm.ExecuteNonQuery()
