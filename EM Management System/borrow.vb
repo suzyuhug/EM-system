@@ -1,4 +1,6 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Text.RegularExpressions
+
 Public Class borrow
     Dim s As Integer
     Dim p As String
@@ -105,6 +107,7 @@ Public Class borrow
 
                 End If
                 MessageBox.Show("借料信息保存成功！" & vbCrLf & "增料模板已生成，请进入Baan系统增料！", "借料管理提示", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+                sendmail()
                 upid_Click(sender, e)
 
 
@@ -123,6 +126,34 @@ Public Class borrow
 
 
     End Sub
+
+    Private Sub sendmail()
+        Dim FoundMatch As Boolean
+        Try
+            FoundMatch = Regex.IsMatch(mailtextbox.Text, "\w+([-+.]\w+)*@flextronics.com")
+        Catch ex As ArgumentException
+            'Syntax error in the regular expression
+        End Try
+        If FoundMatch Then
+            Try
+                Dim cn = New SqlConnection(FrmDataSql)
+                Dim ii As String = "exec sp_ordermailsend '" + idlabel.Text + "'"
+                Dim cm = New SqlCommand(ii, cn)
+                cn.Open()
+                cm.ExecuteNonQuery()
+                cn.Close()
+                cn.Dispose()
+            Catch ex As Exception
+                MessageBox.Show(ex.ToString)
+            End Try
+
+        End If
+        'If mailtextbox.Text Like  Then
+        '   
+        'End If
+
+    End Sub
+
 
     Private Sub PNTextBox_TextChanged(sender As Object, e As EventArgs)
         PNTextBox.Text = UCase(PNTextBox.Text)

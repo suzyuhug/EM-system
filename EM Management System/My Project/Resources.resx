@@ -139,9 +139,6 @@
   <data name="logout-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="44581" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\44581.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,17 +148,11 @@
   <data name="55669" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\55669.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ListMouseEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ListMouseEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Badge_plus_48px_1184722_easyicon.net" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Badge_plus_48px_1184722_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="new jia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\new jia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OKMouseEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OKMouseEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="8b17c646b2770699ce603ec2026ce4731" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8b17c646b2770699ce603ec2026ce473.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,9 +169,6 @@
   <data name="PNG (317)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNG (317).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OrderPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OrderPic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="4474" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4474.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -195,12 +183,6 @@
   </data>
   <data name="print1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\print1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OrderPiccancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OrderPiccancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ListMouseLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ListMouseLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PNG (989)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNG (989).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,20 +229,11 @@
   <data name="PNG5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNG5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OKMouseLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OKMouseLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="print_printer_72px_11220_easyicon.net" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\print_printer_72px_11220_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="5611" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5611.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OrderMouseLeave" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OrderMouseLeave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OrderMouseEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OrderMouseEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PNG (954)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNG (954)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

@@ -113,16 +113,6 @@ Namespace My.Resources
         '''<summary>
         '''  查找 System.Drawing.Bitmap 类型的本地化资源。
         '''</summary>
-        Friend ReadOnly Property _44581() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("44581", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
-        '''</summary>
         Friend ReadOnly Property _4474() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("4474", resourceCulture)
@@ -283,26 +273,6 @@ Namespace My.Resources
         '''<summary>
         '''  查找 System.Drawing.Bitmap 类型的本地化资源。
         '''</summary>
-        Friend ReadOnly Property ListMouseEnter() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("ListMouseEnter", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
-        '''</summary>
-        Friend ReadOnly Property ListMouseLeave() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("ListMouseLeave", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
-        '''</summary>
         Friend ReadOnly Property logout_icon() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("logout-icon", resourceCulture)
@@ -346,66 +316,6 @@ Namespace My.Resources
         Friend ReadOnly Property new_jia() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("new jia", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
-        '''</summary>
-        Friend ReadOnly Property OKMouseEnter() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("OKMouseEnter", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
-        '''</summary>
-        Friend ReadOnly Property OKMouseLeave() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("OKMouseLeave", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
-        '''</summary>
-        Friend ReadOnly Property OrderMouseEnter() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("OrderMouseEnter", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
-        '''</summary>
-        Friend ReadOnly Property OrderMouseLeave() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("OrderMouseLeave", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
-        '''</summary>
-        Friend ReadOnly Property OrderPic() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("OrderPic", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
-        '''</summary>
-        Friend ReadOnly Property OrderPiccancel() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("OrderPiccancel", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
