@@ -67,6 +67,7 @@ Public Class clickfrm
                     drow("终检员") = Uservar
                     drow("工单入库") = "待入库"
                     drow("FF信息") = "Open"
+                    drow("Panel") = "Open"
                     Dim cmdb As New SqlCommandBuilder(da)
                     da.Update(ds, "mytable")
                     MessageBox.Show("系统S/N: " & sntextbox.Text & "  已保存到数据库", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)

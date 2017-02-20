@@ -612,4 +612,18 @@ Public Class mainfrm
     Private Sub Button1_Click(sender As Object, e As EventArgs)
         touorderfrm.Show()
     End Sub
+
+
+
+    Private Sub ToolStripButton10_Click(sender As Object, e As EventArgs) Handles ToolStripButton10.Click
+        msgboxfrm.Show()
+        Application.DoEvents()
+        If qx4 = "有" Then
+            controlpanel.Show()
+        Else
+            msgboxfrm.Close()
+            MessageBox.Show("您没有这个权限，请联系管理员", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
+        msgboxfrm.Close()
+    End Sub
 End Class

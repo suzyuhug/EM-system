@@ -23,14 +23,14 @@ Partial Class mainfrm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mainfrm))
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.文件ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.修改密码ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -44,10 +44,6 @@ Partial Class mainfrm
         Me.借料数据ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.借料用户ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.管理ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.用户管理ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.新用户注册ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.密码重置ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.用户权限ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.工单管理ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.工单物料ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.工单数据ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -63,28 +59,16 @@ Partial Class mainfrm
         Me.库位查询ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.帮助ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
         Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
         Me.Uservarlook = New System.Windows.Forms.ToolStripLabel()
-        Me.ToolStripButton12 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton8 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton7 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator6 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton9 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator7 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton11 = New System.Windows.Forms.ToolStripButton()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -113,6 +97,24 @@ Partial Class mainfrm
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.ToolStripSeparator8 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton8 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton10 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton7 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton9 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton11 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripButton12 = New System.Windows.Forms.ToolStripButton()
+        Me.用户管理ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.新用户注册ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.密码重置ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.用户权限ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataGridViewImageColumn1 = New System.Windows.Forms.DataGridViewImageColumn()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
@@ -147,13 +149,13 @@ Partial Class mainfrm
         '修改密码ToolStripMenuItem
         '
         Me.修改密码ToolStripMenuItem.Name = "修改密码ToolStripMenuItem"
-        Me.修改密码ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.修改密码ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.修改密码ToolStripMenuItem.Text = "修改密码"
         '
         '退出ToolStripMenuItem
         '
         Me.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem"
-        Me.退出ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.退出ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.退出ToolStripMenuItem.Text = "退出"
         '
         '编辑ToolStripMenuItem
@@ -167,7 +169,7 @@ Partial Class mainfrm
         '
         Me.工单编辑ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.工单目录ToolStripMenuItem, Me.工单顺序ToolStripMenuItem})
         Me.工单编辑ToolStripMenuItem.Name = "工单编辑ToolStripMenuItem"
-        Me.工单编辑ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.工单编辑ToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
         Me.工单编辑ToolStripMenuItem.Text = "工单编辑"
         '
         '工单目录ToolStripMenuItem
@@ -185,14 +187,14 @@ Partial Class mainfrm
         '检查表编辑ToolStripMenuItem
         '
         Me.检查表编辑ToolStripMenuItem.Name = "检查表编辑ToolStripMenuItem"
-        Me.检查表编辑ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.检查表编辑ToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
         Me.检查表编辑ToolStripMenuItem.Text = "检查表编辑"
         '
         '借料编辑ToolStripMenuItem
         '
         Me.借料编辑ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.借料数据ToolStripMenuItem, Me.借料用户ToolStripMenuItem})
         Me.借料编辑ToolStripMenuItem.Name = "借料编辑ToolStripMenuItem"
-        Me.借料编辑ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.借料编辑ToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
         Me.借料编辑ToolStripMenuItem.Text = "借料编辑"
         '
         '借料数据ToolStripMenuItem
@@ -214,37 +216,11 @@ Partial Class mainfrm
         Me.管理ToolStripMenuItem.Size = New System.Drawing.Size(43, 20)
         Me.管理ToolStripMenuItem.Text = "管理"
         '
-        '用户管理ToolStripMenuItem
-        '
-        Me.用户管理ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.新用户注册ToolStripMenuItem, Me.密码重置ToolStripMenuItem, Me.用户权限ToolStripMenuItem})
-        Me.用户管理ToolStripMenuItem.Image = Global.EM_Management_System.My.Resources.Resources.PNG__311_
-        Me.用户管理ToolStripMenuItem.Name = "用户管理ToolStripMenuItem"
-        Me.用户管理ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.用户管理ToolStripMenuItem.Text = "用户管理"
-        '
-        '新用户注册ToolStripMenuItem
-        '
-        Me.新用户注册ToolStripMenuItem.Name = "新用户注册ToolStripMenuItem"
-        Me.新用户注册ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.新用户注册ToolStripMenuItem.Text = "用户注册"
-        '
-        '密码重置ToolStripMenuItem
-        '
-        Me.密码重置ToolStripMenuItem.Name = "密码重置ToolStripMenuItem"
-        Me.密码重置ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.密码重置ToolStripMenuItem.Text = "密码重置"
-        '
-        '用户权限ToolStripMenuItem
-        '
-        Me.用户权限ToolStripMenuItem.Name = "用户权限ToolStripMenuItem"
-        Me.用户权限ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.用户权限ToolStripMenuItem.Text = "用户权限"
-        '
         '工单管理ToolStripMenuItem
         '
         Me.工单管理ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.工单物料ToolStripMenuItem, Me.工单数据ToolStripMenuItem1})
         Me.工单管理ToolStripMenuItem.Name = "工单管理ToolStripMenuItem"
-        Me.工单管理ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.工单管理ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.工单管理ToolStripMenuItem.Text = "工单管理"
         '
         '工单物料ToolStripMenuItem
@@ -262,7 +238,7 @@ Partial Class mainfrm
         '木箱管理ToolStripMenuItem
         '
         Me.木箱管理ToolStripMenuItem.Name = "木箱管理ToolStripMenuItem"
-        Me.木箱管理ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.木箱管理ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.木箱管理ToolStripMenuItem.Text = "木箱管理"
         '
         '工具ToolStripMenuItem
@@ -275,13 +251,13 @@ Partial Class mainfrm
         '库位查询ToolStripMenuItem
         '
         Me.库位查询ToolStripMenuItem.Name = "库位查询ToolStripMenuItem"
-        Me.库位查询ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.库位查询ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.库位查询ToolStripMenuItem.Text = "计算器"
         '
         '工具管理ToolStripMenuItem
         '
         Me.工具管理ToolStripMenuItem.Name = "工具管理ToolStripMenuItem"
-        Me.工具管理ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.工具管理ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.工具管理ToolStripMenuItem.Text = "工具管理"
         '
         '查询ToolStripMenuItem
@@ -295,7 +271,7 @@ Partial Class mainfrm
         '
         Me.工单查询ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.已送工单查询ToolStripMenuItem, Me.工单上线查询ToolStripMenuItem})
         Me.工单查询ToolStripMenuItem.Name = "工单查询ToolStripMenuItem"
-        Me.工单查询ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.工单查询ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.工单查询ToolStripMenuItem.Text = "工单查询"
         '
         '已送工单查询ToolStripMenuItem
@@ -313,13 +289,13 @@ Partial Class mainfrm
         '借料查询ToolStripMenuItem
         '
         Me.借料查询ToolStripMenuItem.Name = "借料查询ToolStripMenuItem"
-        Me.借料查询ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.借料查询ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.借料查询ToolStripMenuItem.Text = "借料查询"
         '
         '库位查询ToolStripMenuItem1
         '
         Me.库位查询ToolStripMenuItem1.Name = "库位查询ToolStripMenuItem1"
-        Me.库位查询ToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.库位查询ToolStripMenuItem1.Size = New System.Drawing.Size(122, 22)
         Me.库位查询ToolStripMenuItem1.Text = "库位查询"
         '
         '帮助ToolStripMenuItem
@@ -340,17 +316,6 @@ Partial Class mainfrm
         Me.ToolStrip1.TabIndex = 1
         Me.ToolStrip1.Text = "ToolStrip1"
         '
-        'ToolStripLabel1
-        '
-        Me.ToolStripLabel1.AutoSize = False
-        Me.ToolStripLabel1.BackgroundImage = Global.EM_Management_System.My.Resources.Resources.PNG__311_
-        Me.ToolStripLabel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ToolStripLabel1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripLabel1.Image = Global.EM_Management_System.My.Resources.Resources.profle
-        Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(37, 37)
-        Me.ToolStripLabel1.Text = "用户："
-        '
         'ToolStripSeparator5
         '
         Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
@@ -368,200 +333,45 @@ Partial Class mainfrm
         Me.Uservarlook.Size = New System.Drawing.Size(62, 40)
         Me.Uservarlook.Text = "UserName"
         '
-        'ToolStripButton12
-        '
-        Me.ToolStripButton12.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.ToolStripButton12.AutoSize = False
-        Me.ToolStripButton12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ToolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton12.Image = Global.EM_Management_System.My.Resources.Resources.refresh
-        Me.ToolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton12.Name = "ToolStripButton12"
-        Me.ToolStripButton12.Size = New System.Drawing.Size(40, 40)
-        Me.ToolStripButton12.Text = "刷新"
-        Me.ToolStripButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
         'ToolStrip2
         '
         Me.ToolStrip2.AutoSize = False
-        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton8, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripSeparator1, Me.ToolStripButton4, Me.ToolStripSeparator2, Me.ToolStripButton5, Me.ToolStripSeparator3, Me.ToolStripButton6, Me.ToolStripSeparator4, Me.ToolStripButton7, Me.ToolStripSeparator6, Me.ToolStripButton9, Me.ToolStripSeparator7, Me.ToolStripButton11})
+        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton8, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripSeparator1, Me.ToolStripButton4, Me.ToolStripSeparator2, Me.ToolStripButton5, Me.ToolStripSeparator3, Me.ToolStripButton6, Me.ToolStripSeparator4, Me.ToolStripButton10, Me.ToolStripSeparator8, Me.ToolStripButton7, Me.ToolStripSeparator6, Me.ToolStripButton9, Me.ToolStripSeparator7, Me.ToolStripButton11})
         Me.ToolStrip2.Location = New System.Drawing.Point(0, 24)
         Me.ToolStrip2.Name = "ToolStrip2"
         Me.ToolStrip2.Size = New System.Drawing.Size(1285, 85)
         Me.ToolStrip2.TabIndex = 11
         Me.ToolStrip2.Text = "ToolStrip2"
         '
-        'ToolStripButton1
-        '
-        Me.ToolStripButton1.AutoSize = False
-        Me.ToolStripButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ToolStripButton1.Image = Global.EM_Management_System.My.Resources.Resources.PNG5
-        Me.ToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
-        Me.ToolStripButton1.Size = New System.Drawing.Size(70, 96)
-        Me.ToolStripButton1.Text = "工单登记"
-        Me.ToolStripButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
-        'ToolStripButton8
-        '
-        Me.ToolStripButton8.AutoSize = False
-        Me.ToolStripButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ToolStripButton8.Image = Global.EM_Management_System.My.Resources.Resources._85888
-        Me.ToolStripButton8.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton8.Name = "ToolStripButton8"
-        Me.ToolStripButton8.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
-        Me.ToolStripButton8.Size = New System.Drawing.Size(70, 96)
-        Me.ToolStripButton8.Text = "投工单"
-        Me.ToolStripButton8.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolStripButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
-        'ToolStripButton2
-        '
-        Me.ToolStripButton2.AutoSize = False
-        Me.ToolStripButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ToolStripButton2.Image = Global.EM_Management_System.My.Resources.Resources.PNG66
-        Me.ToolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
-        Me.ToolStripButton2.Size = New System.Drawing.Size(70, 96)
-        Me.ToolStripButton2.Text = "工单上线"
-        Me.ToolStripButton2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
-        'ToolStripButton3
-        '
-        Me.ToolStripButton3.AutoSize = False
-        Me.ToolStripButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ToolStripButton3.Image = Global.EM_Management_System.My.Resources.Resources.PNG__317_1
-        Me.ToolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
-        Me.ToolStripButton3.Size = New System.Drawing.Size(70, 96)
-        Me.ToolStripButton3.Text = "工单入库"
-        Me.ToolStripButton3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
         Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 85)
-        '
-        'ToolStripButton4
-        '
-        Me.ToolStripButton4.AutoSize = False
-        Me.ToolStripButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ToolStripButton4.Image = Global.EM_Management_System.My.Resources.Resources._55669
-        Me.ToolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton4.Name = "ToolStripButton4"
-        Me.ToolStripButton4.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
-        Me.ToolStripButton4.Size = New System.Drawing.Size(70, 96)
-        Me.ToolStripButton4.Text = "终检完成"
-        Me.ToolStripButton4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
         Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 85)
         '
-        'ToolStripButton5
-        '
-        Me.ToolStripButton5.AutoSize = False
-        Me.ToolStripButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ToolStripButton5.Image = Global.EM_Management_System.My.Resources.Resources._4458
-        Me.ToolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton5.Name = "ToolStripButton5"
-        Me.ToolStripButton5.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
-        Me.ToolStripButton5.Size = New System.Drawing.Size(70, 96)
-        Me.ToolStripButton5.Text = "库位查询"
-        Me.ToolStripButton5.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolStripButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
         Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 85)
-        '
-        'ToolStripButton6
-        '
-        Me.ToolStripButton6.AutoSize = False
-        Me.ToolStripButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ToolStripButton6.Image = Global.EM_Management_System.My.Resources.Resources._5611
-        Me.ToolStripButton6.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton6.Name = "ToolStripButton6"
-        Me.ToolStripButton6.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
-        Me.ToolStripButton6.Size = New System.Drawing.Size(70, 96)
-        Me.ToolStripButton6.Text = "借料管理"
-        Me.ToolStripButton6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolStripButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
         Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 85)
         '
-        'ToolStripButton7
-        '
-        Me.ToolStripButton7.AutoSize = False
-        Me.ToolStripButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ToolStripButton7.Image = Global.EM_Management_System.My.Resources.Resources.print_printer_64px_11220_easyicon_net
-        Me.ToolStripButton7.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton7.Name = "ToolStripButton7"
-        Me.ToolStripButton7.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
-        Me.ToolStripButton7.Size = New System.Drawing.Size(70, 96)
-        Me.ToolStripButton7.Text = "检查表打印"
-        Me.ToolStripButton7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolStripButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
         'ToolStripSeparator6
         '
         Me.ToolStripSeparator6.Name = "ToolStripSeparator6"
         Me.ToolStripSeparator6.Size = New System.Drawing.Size(6, 85)
         '
-        'ToolStripButton9
-        '
-        Me.ToolStripButton9.AutoSize = False
-        Me.ToolStripButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ToolStripButton9.Image = Global.EM_Management_System.My.Resources.Resources._4474
-        Me.ToolStripButton9.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton9.Name = "ToolStripButton9"
-        Me.ToolStripButton9.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
-        Me.ToolStripButton9.Size = New System.Drawing.Size(70, 96)
-        Me.ToolStripButton9.Text = "木箱上线"
-        Me.ToolStripButton9.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolStripButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.ToolStripButton9.ToolTipText = "木箱管理"
-        '
         'ToolStripSeparator7
         '
         Me.ToolStripSeparator7.Name = "ToolStripSeparator7"
         Me.ToolStripSeparator7.Size = New System.Drawing.Size(6, 85)
-        '
-        'ToolStripButton11
-        '
-        Me.ToolStripButton11.AutoSize = False
-        Me.ToolStripButton11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ToolStripButton11.Image = Global.EM_Management_System.My.Resources.Resources.logout_icon
-        Me.ToolStripButton11.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton11.Name = "ToolStripButton11"
-        Me.ToolStripButton11.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
-        Me.ToolStripButton11.Size = New System.Drawing.Size(70, 96)
-        Me.ToolStripButton11.Text = "注销"
-        Me.ToolStripButton11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolStripButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.ToolStripButton11.ToolTipText = "木箱管理"
         '
         'DataGridView1
         '
@@ -569,28 +379,28 @@ Partial Class mainfrm
         Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.ActiveCaption
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column7, Me.Column8, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
         Me.DataGridView1.GridColor = System.Drawing.SystemColors.Highlight
         Me.DataGridView1.Location = New System.Drawing.Point(6, 7)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle12
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black
         Me.DataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.SystemColors.ControlLightLight
@@ -602,8 +412,8 @@ Partial Class mainfrm
         '
         'Column1
         '
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.Column1.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.Column1.DefaultCellStyle = DataGridViewCellStyle9
         Me.Column1.FillWeight = 60.9137!
         Me.Column1.HeaderText = "编号"
         Me.Column1.Name = "Column1"
@@ -611,8 +421,8 @@ Partial Class mainfrm
         '
         'Column7
         '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.Column7.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.Column7.DefaultCellStyle = DataGridViewCellStyle10
         Me.Column7.FillWeight = 105.5838!
         Me.Column7.HeaderText = "型号"
         Me.Column7.Name = "Column7"
@@ -620,8 +430,8 @@ Partial Class mainfrm
         '
         'Column8
         '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.Column8.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.Column8.DefaultCellStyle = DataGridViewCellStyle11
         Me.Column8.FillWeight = 105.5838!
         Me.Column8.HeaderText = "工单号"
         Me.Column8.Name = "Column8"
@@ -818,27 +628,27 @@ Partial Class mainfrm
         Me.DataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView2.BackgroundColor = System.Drawing.SystemColors.Control
         Me.DataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.ActiveCaption
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.ActiveCaption
+        DataGridViewCellStyle13.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        DataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle13
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView2.GridColor = System.Drawing.SystemColors.Highlight
         Me.DataGridView2.Location = New System.Drawing.Point(6, 7)
         Me.DataGridView2.Name = "DataGridView2"
         Me.DataGridView2.ReadOnly = True
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView2.RowHeadersDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle14.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        DataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView2.RowHeadersDefaultCellStyle = DataGridViewCellStyle14
         Me.DataGridView2.RowHeadersVisible = False
         Me.DataGridView2.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black
         Me.DataGridView2.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.SystemColors.ControlLightLight
@@ -886,6 +696,218 @@ Partial Class mainfrm
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(311, 352)
         Me.Panel2.TabIndex = 23
+        '
+        'ToolStripSeparator8
+        '
+        Me.ToolStripSeparator8.Name = "ToolStripSeparator8"
+        Me.ToolStripSeparator8.Size = New System.Drawing.Size(6, 85)
+        '
+        'ToolStripButton1
+        '
+        Me.ToolStripButton1.AutoSize = False
+        Me.ToolStripButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton1.Image = Global.EM_Management_System.My.Resources.Resources.PNG5
+        Me.ToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton1.Name = "ToolStripButton1"
+        Me.ToolStripButton1.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton1.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton1.Text = "工单登记"
+        Me.ToolStripButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripButton8
+        '
+        Me.ToolStripButton8.AutoSize = False
+        Me.ToolStripButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton8.Image = Global.EM_Management_System.My.Resources.Resources._85888
+        Me.ToolStripButton8.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton8.Name = "ToolStripButton8"
+        Me.ToolStripButton8.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton8.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton8.Text = "投工单"
+        Me.ToolStripButton8.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripButton2
+        '
+        Me.ToolStripButton2.AutoSize = False
+        Me.ToolStripButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton2.Image = Global.EM_Management_System.My.Resources.Resources.PNG66
+        Me.ToolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton2.Name = "ToolStripButton2"
+        Me.ToolStripButton2.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton2.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton2.Text = "工单上线"
+        Me.ToolStripButton2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripButton3
+        '
+        Me.ToolStripButton3.AutoSize = False
+        Me.ToolStripButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton3.Image = Global.EM_Management_System.My.Resources.Resources.PNG__317_1
+        Me.ToolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton3.Name = "ToolStripButton3"
+        Me.ToolStripButton3.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton3.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton3.Text = "工单入库"
+        Me.ToolStripButton3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripButton4
+        '
+        Me.ToolStripButton4.AutoSize = False
+        Me.ToolStripButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton4.Image = Global.EM_Management_System.My.Resources.Resources._55669
+        Me.ToolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton4.Name = "ToolStripButton4"
+        Me.ToolStripButton4.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton4.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton4.Text = "终检完成"
+        Me.ToolStripButton4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripButton5
+        '
+        Me.ToolStripButton5.AutoSize = False
+        Me.ToolStripButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton5.Image = Global.EM_Management_System.My.Resources.Resources._4458
+        Me.ToolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton5.Name = "ToolStripButton5"
+        Me.ToolStripButton5.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton5.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton5.Text = "库位查询"
+        Me.ToolStripButton5.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripButton6
+        '
+        Me.ToolStripButton6.AutoSize = False
+        Me.ToolStripButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton6.Image = Global.EM_Management_System.My.Resources.Resources._5611
+        Me.ToolStripButton6.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton6.Name = "ToolStripButton6"
+        Me.ToolStripButton6.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton6.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton6.Text = "借料管理"
+        Me.ToolStripButton6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripButton10
+        '
+        Me.ToolStripButton10.AutoSize = False
+        Me.ToolStripButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton10.Image = Global.EM_Management_System.My.Resources.Resources.PNG661
+        Me.ToolStripButton10.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton10.Name = "ToolStripButton10"
+        Me.ToolStripButton10.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton10.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton10.Text = "遥控器记录"
+        Me.ToolStripButton10.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.ToolStripButton10.ToolTipText = "遥控器记录"
+        '
+        'ToolStripButton7
+        '
+        Me.ToolStripButton7.AutoSize = False
+        Me.ToolStripButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton7.Image = Global.EM_Management_System.My.Resources.Resources.print_printer_64px_11220_easyicon_net
+        Me.ToolStripButton7.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton7.Name = "ToolStripButton7"
+        Me.ToolStripButton7.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton7.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton7.Text = "检查表打印"
+        Me.ToolStripButton7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripButton9
+        '
+        Me.ToolStripButton9.AutoSize = False
+        Me.ToolStripButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton9.Image = Global.EM_Management_System.My.Resources.Resources._4474
+        Me.ToolStripButton9.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton9.Name = "ToolStripButton9"
+        Me.ToolStripButton9.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton9.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton9.Text = "木箱上线"
+        Me.ToolStripButton9.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.ToolStripButton9.ToolTipText = "木箱管理"
+        '
+        'ToolStripButton11
+        '
+        Me.ToolStripButton11.AutoSize = False
+        Me.ToolStripButton11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ToolStripButton11.Image = Global.EM_Management_System.My.Resources.Resources.logout_icon
+        Me.ToolStripButton11.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton11.Name = "ToolStripButton11"
+        Me.ToolStripButton11.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never
+        Me.ToolStripButton11.Size = New System.Drawing.Size(70, 96)
+        Me.ToolStripButton11.Text = "注销"
+        Me.ToolStripButton11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolStripButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.ToolStripButton11.ToolTipText = "木箱管理"
+        '
+        'ToolStripLabel1
+        '
+        Me.ToolStripLabel1.AutoSize = False
+        Me.ToolStripLabel1.BackgroundImage = Global.EM_Management_System.My.Resources.Resources.PNG__311_
+        Me.ToolStripLabel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ToolStripLabel1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripLabel1.Image = Global.EM_Management_System.My.Resources.Resources.profle
+        Me.ToolStripLabel1.Name = "ToolStripLabel1"
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(37, 37)
+        Me.ToolStripLabel1.Text = "用户："
+        '
+        'ToolStripButton12
+        '
+        Me.ToolStripButton12.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.ToolStripButton12.AutoSize = False
+        Me.ToolStripButton12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.ToolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton12.Image = Global.EM_Management_System.My.Resources.Resources.refresh
+        Me.ToolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton12.Name = "ToolStripButton12"
+        Me.ToolStripButton12.Size = New System.Drawing.Size(40, 40)
+        Me.ToolStripButton12.Text = "刷新"
+        Me.ToolStripButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        '用户管理ToolStripMenuItem
+        '
+        Me.用户管理ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.新用户注册ToolStripMenuItem, Me.密码重置ToolStripMenuItem, Me.用户权限ToolStripMenuItem})
+        Me.用户管理ToolStripMenuItem.Image = Global.EM_Management_System.My.Resources.Resources.PNG__311_
+        Me.用户管理ToolStripMenuItem.Name = "用户管理ToolStripMenuItem"
+        Me.用户管理ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.用户管理ToolStripMenuItem.Text = "用户管理"
+        '
+        '新用户注册ToolStripMenuItem
+        '
+        Me.新用户注册ToolStripMenuItem.Name = "新用户注册ToolStripMenuItem"
+        Me.新用户注册ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.新用户注册ToolStripMenuItem.Text = "用户注册"
+        '
+        '密码重置ToolStripMenuItem
+        '
+        Me.密码重置ToolStripMenuItem.Name = "密码重置ToolStripMenuItem"
+        Me.密码重置ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.密码重置ToolStripMenuItem.Text = "密码重置"
+        '
+        '用户权限ToolStripMenuItem
+        '
+        Me.用户权限ToolStripMenuItem.Name = "用户权限ToolStripMenuItem"
+        Me.用户权限ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.用户权限ToolStripMenuItem.Text = "用户权限"
         '
         'DataGridViewImageColumn1
         '
@@ -1014,4 +1036,6 @@ Partial Class mainfrm
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents ToolStripSeparator5 As ToolStripSeparator
     Friend WithEvents ToolStripLabel2 As ToolStripLabel
+    Friend WithEvents ToolStripButton10 As ToolStripButton
+    Friend WithEvents ToolStripSeparator8 As ToolStripSeparator
 End Class

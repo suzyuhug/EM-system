@@ -118,20 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="printbuttion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\printbuttion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="b41c8b66855ab187eb6e0533e5e737fa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b41c8b66855ab187eb6e0533e5e737fa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="445553" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\445553.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="未标题-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\未标题-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="587830f196ef07c13e49276f7c184e7d1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\587830f196ef07c13e49276f7c184e7d1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="6218f5695d2137ccaad119b4cf266075" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6218f5695d2137ccaad119b4cf266075.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PNG (954)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNG (954).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +157,8 @@
   <data name="c216b282b2d89f4475c435ef86b5be4e" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c216b282b2d89f4475c435ef86b5be4e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="print_printer_64px_11220_easyicon.net" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\print_printer_64px_11220_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="printbuttion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printbuttion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PNG (317)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNG (317).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,20 +181,26 @@
   <data name="PNG (989)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNG (989).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="print_printer_72px_11220_easyicon.net" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print_printer_72px_11220_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PNG (319)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNG (319)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="voice" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\voice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yprint" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yprint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="85888" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\85888.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="5456666" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5456666.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PNG (1066)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PNG (1066).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b41c8b66855ab187eb6e0533e5e737fa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b41c8b66855ab187eb6e0533e5e737fa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6218f5695d2137ccaad119b4cf266075" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6218f5695d2137ccaad119b4cf266075.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FF" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,6 +214,9 @@
   <data name="MB_0006_back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MB_0006_back1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="图片1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\图片1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="4458" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4458.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -223,17 +226,20 @@
   <data name="54899" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\54899.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="445553" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\445553.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="print_printer_64px_11220_easyicon.net" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print_printer_64px_11220_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PNG5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNG5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="print_printer_72px_11220_easyicon.net" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\print_printer_72px_11220_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yprint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yprint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="5611" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5611.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="85888" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\85888.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PNG (954)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNG (954)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,7 +265,7 @@
   <data name="28f4efa892af22502c8044aa7e23414d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\28f4efa892af22502c8044aa7e23414d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="图片1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\图片1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PNG661" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PNG661.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -323,6 +323,16 @@ Namespace My.Resources
         '''<summary>
         '''  查找 System.Drawing.Bitmap 类型的本地化资源。
         '''</summary>
+        Friend ReadOnly Property PNG__1066_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("PNG (1066)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
+        '''</summary>
         Friend ReadOnly Property PNG__311_() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("PNG (311)", resourceCulture)
@@ -416,6 +426,16 @@ Namespace My.Resources
         Friend ReadOnly Property PNG66() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("PNG66", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  查找 System.Drawing.Bitmap 类型的本地化资源。
+        '''</summary>
+        Friend ReadOnly Property PNG661() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("PNG661", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
