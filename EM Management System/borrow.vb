@@ -548,6 +548,8 @@ Public Class borrow
 
                 Dim cmdb As New SqlCommandBuilder(da)
                 da.Update(ds, "mytable")
+                huanliao(TextBox2.Text)
+
                 MessageBox.Show("物料 " & Label24.Text & " 已还回来了", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
             Catch ex As Exception
                 MessageBox.Show(ex.ToString)
@@ -562,6 +564,21 @@ Public Class borrow
         End If
 
     End Sub
+    Private Sub huanliao(id As String)
+
+        Try
+            Dim cn = New SqlConnection(FrmDataSql)
+            Dim ii As String = "DELETE ReturnPlan WHERE ItemID='" + id + "'"
+            Dim cm = New SqlCommand(ii, cn)
+            cn.Open()
+            cm.ExecuteNonQuery()
+            cn.Close()
+            cn.Dispose()
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
 
 
 End Class

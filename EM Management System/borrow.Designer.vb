@@ -190,7 +190,7 @@ Partial Class borrow
         Me.bztext.Location = New System.Drawing.Point(445, 141)
         Me.bztext.Name = "bztext"
         Me.bztext.Size = New System.Drawing.Size(135, 26)
-        Me.bztext.TabIndex = 46
+        Me.bztext.TabIndex = 30
         '
         'Label26
         '
@@ -208,7 +208,7 @@ Partial Class borrow
         Me.DateTimePicker1.Location = New System.Drawing.Point(266, 144)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(118, 20)
-        Me.DateTimePicker1.TabIndex = 44
+        Me.DateTimePicker1.TabIndex = 29
         '
         'Label17
         '
@@ -299,7 +299,7 @@ Partial Class borrow
         Me.Numbertextbox.Location = New System.Drawing.Point(83, 141)
         Me.Numbertextbox.Name = "Numbertextbox"
         Me.Numbertextbox.Size = New System.Drawing.Size(67, 26)
-        Me.Numbertextbox.TabIndex = 34
+        Me.Numbertextbox.TabIndex = 28
         '
         'CheckBox1
         '
@@ -431,7 +431,7 @@ Partial Class borrow
         Me.photostextbox.Location = New System.Drawing.Point(100, 85)
         Me.photostextbox.Name = "photostextbox"
         Me.photostextbox.Size = New System.Drawing.Size(221, 26)
-        Me.photostextbox.TabIndex = 9
+        Me.photostextbox.TabIndex = 32
         '
         'nametextbox
         '
@@ -448,7 +448,7 @@ Partial Class borrow
         Me.jobid.Location = New System.Drawing.Point(100, 37)
         Me.jobid.Name = "jobid"
         Me.jobid.Size = New System.Drawing.Size(221, 26)
-        Me.jobid.TabIndex = 7
+        Me.jobid.TabIndex = 31
         '
         'Label8
         '
