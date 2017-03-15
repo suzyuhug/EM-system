@@ -92,7 +92,7 @@ Public Class clickfrm
         Dim ds As DataSet
         Dim cnStr As String = FrmDataSql
         cn = New SqlConnection(cnStr)
-        da = New SqlDataAdapter("select 编号,型号,料号,上线时间 from Order_table WHERE 工单上线='已上线'and 系统序列号='Open'", cn) '表名
+        da = New SqlDataAdapter("select 编号,型号,料号,上线时间 from Order_table a WHERE 编号 IN(SELECT TOP 1 编号 FROM Order_Table WHERE 型号=a.型号 AND 工单上线='已上线'and 系统序列号='Open')", cn) '表名
         ds = New DataSet()
         da.Fill(ds, "Order_table")
         DataGridView1.DataSource = ds.Tables("Order_table") '表名
